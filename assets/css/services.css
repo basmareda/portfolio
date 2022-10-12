@@ -1,0 +1,14 @@
+/* bg-gradient {
+    background-image: var(--bs-gradient)!important;}
+.text-white {
+        --bs-text-opacity: 1;
+        color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;} */
+/* .facts-erea {
+            background-color: #8490ff;
+            color: #fff;
+        } */
+ .numbers{
+    padding-top: 50px;
+ background: -webkit-linear-gradient(0deg,#8490ff 0%,#62bdfc 100%);
+    height: 200px;
+        }

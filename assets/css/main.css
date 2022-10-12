@@ -1,0 +1,233 @@
+/* General Styles */
+
+:root {
+  --bs-primary: #8490ff;
+  --bs-secondary: #62bdfc;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Utility Classes */
+
+.text-sm {
+  font-size: 0.875rem;
+}
+
+/* Components */
+
+.btn {
+  --bs-btn-border-width: 0;
+  --bs-btn-border-radius: 0;
+  --bs-btn-padding-x: 1.5rem;
+  --bs-btn-padding-y: 0.5rem;
+}
+
+.btn-primary {
+  --bs-btn-bg: linear-gradient(
+    to right,
+    var(--bs-primary) 0%,
+    var(--bs-secondary) 100%
+  );
+  background: var(--bs-btn-bg);
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  --bs-btn-box-shadow: 20px 20px 0 rgb(132 144 255 / 30%);
+}
+
+.section {
+  padding: 3rem 0;
+ 
+}
+
+.section-title {
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 1.5rem 0;
+}
+
+.section-title-sm {
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+/* Layout */
+
+/* Navbar */
+
+.navbar-nav {
+  --bs-navbar-color: var(--bs-black);
+  --bs-navbar-hover-color: var(--bs-primary);
+  --bs-navbar-active-color: var(--bs-primary);
+  --bs-navbar-padding-y: 1.5rem;
+  --bs-nav-link-font-size: 0.75rem;
+}
+
+.offcanvas {
+  --bs-offcanvas-bg: rgba(0, 0, 0, 0.9);
+}
+
+.offcanvas .navbar-nav {
+  --bs-navbar-color: var(--bs-white);
+}
+/* services */
+
+
+.hove:hover{
+color:var(--bs-secondary);
+
+}
+
+/* posts */
+div.posts-line{
+height:250px;
+/* padding-top: 30px;
+padding-bottom: 5px; */
+  
+
+}
+h4.caption:hover{
+  color: var( --bs-primary);
+}
+
+
+/* price plan */
+
+#price-card .borderr{
+  border: 20px solid rgba(132, 144, 255, 0.1);
+}
+
+.price-card-btn{
+  display: none;
+}
+.price-card:hover{
+  padding-top: 1rem;
+}
+.price-card:hover ,
+.price-card:hover li ,
+.price-card:hover p {
+  background: var(--bs-primary) ;
+    z-index: 2;
+    color: #fff !important;
+    cursor: pointer;
+}
+.price-card:hover h1{
+  color: black;
+}
+.price-card:hover .price-btn{
+  display: block;
+}
+.price-card:hover h2{
+  display: none;
+}
+
+.swiper-slide:hover h5{
+  color: var(--bs-primary);
+}
+.price-btn:hover{
+  color: black;
+}
+/* brands */
+#brands{
+  background-color: var(--bs-primary);
+  
+}
+#brands:hover{
+  background-color: var(--bs-primary);
+  color: #fff;
+  opacity: 20;
+}
+/* numberssection */
+.numbers{
+  padding-top: 50px;
+background: -webkit-linear-gradient(0deg,#8490ff 0%,#62bdfc 100%);
+  height: 200px;
+      }
+ 
+      
+/* pricing page */
+      dl {
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    .accordion>dd {
+      margin-bottom: 10px;
+      padding: 10px 20px 20px;
+      font-size: 14px;
+      line-height: 1.8;
+      color: #777;
+  }
+ 
+
+  /* pages page */
+  .onlyblockquote {
+    padding: 30px 50px 30px 30px;
+    background: whitesmoke;
+    border-left: 2px solid #8490ff;
+}
+
+.progress-table-wrap {
+    overflow-x: scroll;
+}
+.progress-table {
+  background: #fff;
+  padding: 15px 0 30px 0;
+  min-width: 800px;
+}
+.progress-table .table-head {
+  display: flex;
+}
+
+
+.progress-table .table-row {
+    padding: 15px 0;
+    border-top: 1px solid #edf3fd;
+    display: flex;
+}
+.section-top-border {
+  padding: 50px 0;
+  border-top: 1px dotted #eee;
+}
+.div{
+  display: block;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+}
+.mt-10 {
+    margin-top: 10px;
+}
+.longinput {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  border: none;
+  outline: none;
+  background: #fff;
+  padding: 0 20px;
+}
+/* switch */
+.single-element-widget {
+  margin-bottom: 30px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
